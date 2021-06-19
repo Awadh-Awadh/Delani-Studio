@@ -6,10 +6,12 @@ body{
 }
 #hero{
   background-image: url('/static/images/hero.jpg');
+  }
+  #hero,#services,#contact{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-}
+  }
 .logo{
   display: flex;
   justify-content: center;
@@ -58,7 +60,6 @@ h2{
 #services{
   background-image: url('/static/images/comp.jpg');
   height: 50vh;
-  text-align: center;
   padding: 0 10rem;
   
 }
@@ -93,7 +94,27 @@ text-align: center;
   height: 220px;
   width: 220px;
   margin: 2rem;
+  cursor: pointer;
 }
 .row2{
   margin-top: 5rem;
+}
+
+#contact{
+background-image: url('/static/images/message.jpg');
+color: #fff;
+}
+input{
+  padding: 1rem 0 0;
+  width: 60%;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #fff;
+}
+textarea{
+  border: 1px solid #fff;
+  background-color: transparent;
+  resize: none;
 }
