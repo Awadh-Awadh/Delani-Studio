@@ -117,4 +117,17 @@ textarea{
   border: 1px solid #fff;
   background-color: transparent;
   resize: none;
+  width: 80%;
+}
+.submit{
+  margin: 2rem 0;
+  padding: 0.5rem 4rem;
+  border: none;
+  color:#fff;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #df8217;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+
 }
