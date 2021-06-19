@@ -131,3 +131,9 @@ textarea{
   cursor: pointer;
 
 }
+#socials{
+  text-align: center;
+  margin: 3rem auto;
+  cursor: pointer;
+ 
+}
