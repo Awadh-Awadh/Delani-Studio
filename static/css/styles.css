@@ -72,3 +72,14 @@ h2{
   line-height: 3rem;
   opacity: 1;
 }
+.heading{
+  text-align: center;
+  padding: 5rem 0;
+}
+h6{
+  padding: 2rem 0;
+  font-family: 'Poppins', sans-serif;
+}
+.description p{
+text-align: center;
+}
