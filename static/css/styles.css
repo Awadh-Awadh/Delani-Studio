@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@200&display=swap');
-
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 #hero{
   background-image: url('/static/images/hero.jpg');
-  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -22,6 +25,7 @@
   padding-top: 1.5rem;
   font-family: 'DM Sans', sans-serif;
   font-weight: 600;
+  font-size: 3rem;
 }
 .header h4{
   font-family: 'Poppins', sans-serif;
@@ -32,4 +36,19 @@
   margin-top: 7rem;
   cursor: pointer;
 }
+.about-us{
+  padding: 3rem 10rem;
+  text-align: center;
+ 
+}
     
+h2{
+  color: #000;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+.about-us p{
+  font-family: 'Poppins', sans-serif;
+}
