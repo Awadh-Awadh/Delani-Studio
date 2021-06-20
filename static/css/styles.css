@@ -171,7 +171,7 @@ footer{
 }
 
 
-.work{
+.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
   width: 200px;
   height: 200px;
   background-color: blue;
@@ -182,12 +182,6 @@ footer{
   background-color: transparent;
   background-color: rgb(218, 214, 214);
   display: none;
-}
-.row img{
-  transition: all 1s ease;
-}
-.row img:hover{
-  opacity: 0.7;
 }
 .work h3{
   color:#fff;
