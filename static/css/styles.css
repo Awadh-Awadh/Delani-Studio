@@ -9,7 +9,7 @@ body{
   box-sizing: border-box;
 }
 #hero{
-  background-image: url('./static/images/hero.jpg');
+  background-image: url('../images/hero.jpg');
   }
   #hero,#services,#contact{
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ h2{
 }
 
 #services{
-  background-image: url('./static/images/comp.jpg');
+  background-image: url('../images/comp.jpg');
   height: 50vh;
   padding: 0 10rem;
   
@@ -128,7 +128,7 @@ text-align: center;
 }
 
 #contact{
-background-image: url('./static/images/message.jpg');
+background-image: url('../images/message.jpg');
 color: #fff;
 }
 input{
