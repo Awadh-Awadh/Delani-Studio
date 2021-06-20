@@ -66,11 +66,11 @@ function validate(){
   }
 
   
-  if(message.length < 50){
+  if(name.length> 2 && message.length < 10){
     alert('meassage too short')
   }
-  else{
-    alert('Message Recieved')
+  if (name.length >2 && message.length >10){
+    alert( 'Hi ' +name + ' we have received your message. Thank you for keeping in touch')
   }
 }
 

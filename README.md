@@ -21,13 +21,13 @@
   - Send Feedback
   
 ## Live link
-[Live Link](https://awadh-awadh.github.io/Akan-Names/)
+[Live Link](https://awadh-awadh.github.io/Delani-Studio/)
   
 ## Technologies used
   - HTML
   - CSS
   - JS
-  -JQuery
+  - JQuery
   
 ## Contact information
   awadhsaid84@gmail.com
