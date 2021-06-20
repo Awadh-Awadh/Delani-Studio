@@ -28,3 +28,30 @@ $('.description3').click(()=>{
   $('.image3').toggle();
   $('.head3').show()
 })
+
+
+$()
+
+
+
+function validate(){
+  let name = document.getElementById('fname').value;
+  let mail = document.getElementById('mailing').value
+  let message = document.getElementById('message').value
+  if(name.length <2){
+    alert('name is too short')
+  }
+
+  
+  if(message.length < 50){
+    alert('meassage too short')
+  }
+  else{
+    alert('Message Recieved')
+  }
+}
+
+var button = document.getElementById('button')
+button.addEventListener('click',()=>{
+  validate();
+})

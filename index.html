@@ -16,6 +16,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+ </script>
 
 
   <link rel="stylesheet" href="./static/css/styles.css">
@@ -41,7 +46,7 @@
         <h4>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h4>
       </div>
       <div>
-        <img class="mouse" src="./static/images/mouse_click (copy).png" alt="mouse_click">
+        <a href="#about"><img class="mouse" src="./static/images/mouse_click (copy).png" alt="mouse_click"></a>
       </div>
     </div>
   </section>
@@ -91,11 +96,12 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <div class="design d-flex justify-content-center">
-            <img src="./static/images/design_icon.png" alt="design">
+          <div class="design d-flex justify-content-center ">
+            <img class ="image1" src="./static/images/design_icon.png" alt="design">
           </div>
-          <h6 class="topics text-center">Design</h6>
-          <div class="description">
+          <h6 class="topics text-center head1">Design</h6>
+          <div class="description1">
+            <h6 class="topics text-center">Design</h6>
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual
               design and user experience testing. Throughout your project, our designers create and implement visual
               design and workflows, solicit user feedback and work with you to make sure what gets built is what is
@@ -104,10 +110,11 @@
         </div>
         <div class="col-lg-4">
           <div class="dev d-flex justify-content-center">
-            <img src="./static/images/dev_icon.png" alt="dev">
-          </div>
-          <h6 class="topics text-center">Development</h6>
-          <div class="description">
+            <img class ="image2"src="./static/images/dev_icon.png" alt="dev">
+          </div> 
+          <h6 class="topics text-center head2">Development</h6>         
+          <div class="description2">
+            <h6 class="topics text-center">Development</h6>
             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They
               collaborate with your team to write, and improve code on a daily basis, using proven practices such as
               test-driven development and pair programming.</p>
@@ -115,10 +122,11 @@
         </div>
         <div class="col-lg-4">
           <div class="management d-flex justify-content-center">
-            <img src="./static/images/product_icon.png" alt="management">
+            <img class ="image3" src="./static/images/product_icon.png" alt="management">
           </div>
-          <h6 class="topics text-center">Product Management</h6>
-          <div class="description">
+          <h6 class="topics text-center head3">Product Management</h6>          
+          <div class="description3">
+            <h6 class="topics text-center">Product Management</h6> 
             <p>Planning and development is iterative. Because we are constantly coding and testing, the products we
               build are always ready to go live. This iterative process allows for changes as business requirements
               evolve.</p>
@@ -136,17 +144,34 @@
     <div class="heading">
       <h2>PORTFOLIO</h2>
     </div>
-    <div class="row">
-      <div class="col-lg-3"><img src="./static/images/work1.jpg" alt="work 1"></div>
-      <div class="col-lg-3"><img src="./static/images/work2.jpg" alt="work2"></div>
-      <div class="col-lg-3"><img src="./static/images/work3.jpg" alt="work 3"></div>
-      <div class="col-lg-3"><img src="./static/images/work4.jpg" alt=""></div>
+    <div class="row row1 ">
+      <div class="col-lg-3 col-md-4 d-flex justify-content-center"><img class = "works"src="./static/images/work1.jpg" alt="work 1">
+        <div class="work"><h3>work 1</h3></div>
+      </div>   
+      
+      <div class="col-lg-3 col-md-4 d-flex justify-content-center"><img class = "works"src="./static/images/work2.jpg" alt="work2">
+        <div class="work"><h3>work 2</h3></div>
+      </div>
+      <div class="col-lg-3 col-md-4 d-flex justify-content-center"><img class = "works"src="./static/images/work3.jpg" alt="work 3">
+        <div class="work"><h3>work 3</h3></div>
+      </div>
+      <div class="col-lg-3 d-flex justify-content-center"><img class = "works"src="./static/images/work4.jpg" alt="">
+        <div class="work"><h3>work 4</h3></div>
+      </div>
     </div>
     <div class="row row2">
-      <div class="col-lg-3"><img src="./static/images/work5.jpg" alt="work 5"></div>
-      <div class="col-lg-3"><img src="./static/images/work6.jpg" alt="work6"></div>
-      <div class="col-lg-3"><img src="./static/images/work7.jpg" alt="work 7"></div>
-      <div class="col-lg-3"><img src="./static/images/work8.jpg" alt="work 8"></div>
+      <div class="col-lg-3 col-md-4 d-flex justify-content-center"><img class = "works" src="./static/images/work5.jpg" alt="work 5">
+        <div class="work"><h3>work 5</h3></div>
+      </div>
+      <div class="col-lg-3 col-md-4 d-flex justify-content-center"><img  class = "works" src="./static/images/work6.jpg" alt="work6">
+        <div class="work"><h3>work 6</h3></div>
+      </div>
+      <div class="col-lg-3 col-md-4 d-flex justify-content-center"><img class = "works" src="./static/images/work7.jpg" alt="work 7">
+        <div class="work"><h3>work 7</h3></div>
+      </div>
+      <div class="col-lg-3 d-flex justify-content-center"><img class = "works" src="./static/images/work8.jpg" alt="work 8">
+        <div class="work"><h3>work 8</h3></div>
+      </div>
     </div>
 
   </section>
@@ -162,19 +187,20 @@
       <div class="userInput">
         <div class="row">
           <div class="col-lg-6">
-            <input type="text " name="name" placeholder="Name">
+            <input type="text " id = "fname" name="name" placeholder="Name">
           </div>
           <div class="col-lg-6">
             <input type="email" id="mailing" placeholder="email">
           </div>
         </div>
         <div class="row">
-          <div class="col-lg">
-            <textarea name="inputmessage" id="message" cols="95" rows="10"></textarea>
+          <div class="col-lg-12">
+            <textarea name="inputmessage" id="message" cols="" rows="15" placeholder="message"></textarea>
           </div>
+
         </div>
         <div class="btn">
-          <button class="submit">Submit</button>
+          <button id = "button" class="submit">Submit</button>
         </div>
       </div>
     </div>
@@ -183,7 +209,7 @@
 <!-- Social Media -->
 
 <section id="socials">
-  <div class="sm">
+  <div class="smedia">
     <img src="./static/images/twitter.png" alt="">
     <img src="./static/images/dribble.png" alt="">
     <img src="./static/images/facebook.png" alt="">
